@@ -1,0 +1,207 @@
+body {
+    background-color: #d6f0e1;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    font-family: 'Jua', sans-serif;
+}
+
+h1,
+h2{
+    font-family: 'Jua', sans-serif;
+}
+
+#mainSelect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    flex-direction: column;
+    gap: 10px;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+h1 {
+    /* background-color: lightpink; */
+    color: lightpink;;
+    display: flex;
+    font-size: 100px;
+    text-shadow: 10px 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+h2{
+    font-size: 50px;
+
+}
+
+span{
+    font-size: 50px;
+
+}
+
+/* td:hover{background-color: pink;} */
+.hover-effect:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+table {
+    width: 500px;
+    height: 200px;
+    border-radius: 30px;
+    background-color: beige;
+    font-size: x-large;
+
+}
+
+#title1 {
+    width: 170px;
+    height: 30px;
+}
+
+.date {
+    color: gray;
+}
+
+.holidays {
+    background-color: #f9c5d1;
+    border: 15px solid white;
+    width: 400px;
+    height: 500px;
+    position: fixed;
+    top: 100px;
+    left: 1200px;
+    color: #4a4a4a;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    font-family: 'Gowun Dodum', sans-serif;
+
+}
+
+#noticeT {
+    font-size: x-large;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gowun Dodum', sans-serif;
+
+}
+
+#noticeI {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#noticeN {
+    height: 40%;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-around;
+}
+
+.block {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: lightblue;
+    color: black;
+    text-decoration: none;
+    width: 300px;
+    height: 200px;
+    
+    font-size: xx-large;
+    border-radius: 999px;
+    border: 10px solid rosybrown;
+    transition: 0.3s;
+}
+
+.block:hover {
+    background-color: #fff1f3;
+    animation-name: cuteBounce;
+    animation-duration: .7s;
+    animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+@keyframes cuteBounce {
+    0% {
+        transform: scale(1);
+    }
+
+    30% {
+        transform: scale(1.1) rotate(5deg);
+    }
+
+    50% {
+        transform: scale(0.95) rotate(-5deg);
+    }
+
+    70% {
+        transform: scale(1.05) rotate(3deg);
+    }
+
+    100% {
+        transform: scale(1) rotate(0deg);
+    }
+}
+
+#outer01 {
+    width: 90%;
+    max-width: 1400px;
+    height: 500px;
+    border: 30px solid #fff8f0;
+    background-color: #fff8f0;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-flow: column;
+    gap: 20px;
+    margin: 0 auto 40px auto;
+    box-sizing: border-box;
+    font-family: 'Gowun Dodum', sans-serif;
+}
+
+#miniT {
+    font-size: x-large;
+}
+
+#bigouter {
+    display: flex;
+    justify-content: center;
+}
+
+#noticerealT {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+
+.selected {
+    /* background-color: #64b5f6; */
+    color: white;
+}
+
+#calendar {
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 30px;
+    font-family: 'Gowun Dodum', sans-serif;
+
+}
